@@ -5,6 +5,8 @@ import Modalidades from "./pages/Modalidades";
 import Depoimentos from "./pages/Depoimentos";
 import Professores from "./pages/Professores";
 import Duvidas from "./pages/Duvidas";
+import Modalidade from "./pages/Modalidade";
+import Galery from "./components/Galery";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +20,17 @@ const router = createBrowserRouter([
       },
       {
       path:"/modalidades",
-      element: <Modalidades/>
+      element: <Modalidades/>,
+      children:[
+        {
+          index:true,
+          path:"/modalidades",
+          element: <Galery/>},
+        {
+          path:"/modalidades/modalidade",
+          element:<Modalidade/>
+        }
+      ]
       },
       {
         path:"/depoimentos",
@@ -29,7 +41,7 @@ const router = createBrowserRouter([
         element:<Professores/>
       },
       {
-        path :"Duvidas",
+        path :"/Duvidas",
         element:<Duvidas/>
       }
     ]

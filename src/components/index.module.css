@@ -30,9 +30,7 @@ header{
     font-family: var(--font-title);
     color: var(--sencudary);
 }
-.logo > span>span{
-    color: #fff;
-}
+
 
 header>nav{
     display: flex;
@@ -45,17 +43,69 @@ header>nav>a {
     cursor: pointer;
     font-size: var(--size-h6);
     font-weight: 200;
-    color: #fff;
+    transition: .2s;
+}
+header>nav>a:hover{
+    border-bottom: 1px solid white;
 }
 
 footer{
     font-size: var(--size-text);
     font-family: var(--font-text);
     background-color: var(--primary);
-    color: #fff;
+   
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 10vh;
+}
+
+.galery {
+    padding-top: 35px;
+    display: grid;
+    gap: 35px;
+    
+    grid-template-areas: 
+      "image1 image2 image2"
+      "image3 image3 image4"
+      "image5 image6 image6"
+      "image7 image7 image7";
+}
+.galery:hover>:not(:hover){
+    opacity: .4;
+}
+.image1 {
+    grid-area: image1;
+    transition: .5s;
+}
+
+.image2 {
+    grid-area: image2;
+    transition: .5s;
+}
+
+.image3 {
+    grid-area: image3;
+    transition: .5s;
+}
+
+.image4 {
+    grid-area: image4;
+    transition: .5s;
+}
+
+.image5 {
+    grid-area: image5;
+    transition: .5s;
+}
+
+.image6 {
+    grid-area: image6;
+    transition: .5s;
+}
+
+.image7 {
+    grid-area: image7;
+    transition: .5s;
 }

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+:root{
+    --primary:#161519;
+    --sencudary:#d5a353;
+    --font-title:'Oswald', sans-serif;
+    --font-text:'Poppins', sans-serif;
+    --size-h1:48px;
+    --size-h2:32px;
+    --size-h3:28px;
+    --size-h4:24px;
+    --size-h5:20px;
+    --size-h6:18px;
+    --size-text:16px;
+
+}
+.home {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../assets/Musculação.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.conatainer01{
+    margin:0  auto;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.homeTitle{
+    font-family: var(--font-title);
+    font-size: 196px;
+    transform: translateY(20%);
+}
+.homeSubTitle{
+    font-family: var(--font-title);
+    font-size: 52px;
+    font-weight: 200;
+    text-align: center;
+    width: 50vw;
+}
+.homeText{
+    font-size: var(--size-text);
+    font-family: var(--font-text);
+    font-weight: 200;
+    text-align: center;
+}
+.strong{
+    font-weight: 500;
+}
+.days{
+    width: 100vw;
+    padding:0 10vw;
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr  1fr 1fr  1fr;
+    gap: 0 .1rem;
+}
+.day{
+    padding: .5rem;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+    background-color: rgba(0, 0, 0, 0.397);
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.dayTitle{
+    font-family: var(--font-title);
+    font-size: var(--size-h5);
+    color: var(--sencudary);
+    font-weight: 500;
+}
+.dayHour{
+    font-family: var(--font-title);
+    font-size: var(--size-h6);
+    font-weight: 400;
+
+}
+.dayList{
+    font-family: var(--font-title);
+    font-size: 300;
+    font-weight: 300;
+}
+.mainModalidades{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary);
+}
+.title{
+    text-align: center;
+    width: 80%;
+    font-family: var(--font-title);
+    font-size: var(--size-h1);
+    border-bottom:1px solid white ;
+    
+}
+.galery {
+    display: grid;
+    gap: 35px;
+    
+    grid-template-areas: 
+      "image1 image2 image2"
+      "image3 image3 image4"
+      "image5 image6 image6"
+      "image7 image7 image7";
+}
+
+.image1 {
+    grid-area: image1;
+
+}
+
+.image2 {
+    grid-area: image2;
+}
+
+.image3 {
+    grid-area: image3;
+}
+
+.image4 {
+    grid-area: image4;
+}
+
+.image5 {
+    grid-area: image5;
+}
+
+.image6 {
+    grid-area: image6;
+}
+
+.image7 {
+    grid-area: image7;
+}
