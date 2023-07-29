@@ -27,7 +27,7 @@ const router = createBrowserRouter([
           path:"/modalidades",
           element: <Galery/>},
         {
-          path:"/modalidades/modalidade",
+          path:"/modalidades/:id",
           element:<Modalidade/>
         }
       ]
