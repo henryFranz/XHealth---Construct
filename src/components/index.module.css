@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+:root{
+    --primary:#161519;
+    --sencudary:#d5a353;
+    --font-title:'Oswald', sans-serif;
+    --font-text:'Poppins', sans-serif;
+    --size-h1:48px;
+    --size-h2:32px;
+    --size-h3:28px;
+    --size-h4:24px;
+    --size-h5:20px;
+    --size-h6:18px;
+    --size-text:16px;
+
+}
+
+header{
+    padding:0 10vw;
+    background-color: var(--primary);
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.logo > span {
+    font-weight: bold;
+    font-size: var(--size-h2);
+    font-family: var(--font-title);
+    color: var(--sencudary);
+}
+.logo > span>span{
+    color: #fff;
+}
+
+header>nav{
+    display: flex;
+    gap: 1.9rem;
+    font-family: var(--font-title);
+}
+
+header>nav>a {
+    all: unset;
+    cursor: pointer;
+    font-size: var(--size-h6);
+    font-weight: 200;
+    color: #fff;
+}
+
+footer{
+    font-size: var(--size-text);
+    font-family: var(--font-text);
+    background-color: var(--primary);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+}
