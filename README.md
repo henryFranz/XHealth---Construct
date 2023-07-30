@@ -15,3 +15,11 @@ ficará cadastrado o nome, valor pago e a quantidade de horas que ele pagou para
 O Henry ficará encarregado da parte frontal do site, design etc, seguindo até onde foi decidido as cores padrões do projeto, sendo elas: #ebba34 (amarelo) e #050505 (preto),
 lembrando que deverá ser feito uma parte no frontend onde o Diogo poderá conectar com a rota do todo-list, como por exemplo um botão escrito "treinar agora",
 quando a pessoa clicar ela vai ser redirecionada através da rota para o todo-list, onde o Diogo ficou encarregado de fazer.
+
+- Progresso
+- ✔️ Home
+- ✔️ Modalidades
+- ✔️ Depoimentos
+- ❌ Professores
+- ❌ Duvidas (Falta fazer a parte da logica e está com bug ao clickar no mesmo, bug referente as rotas)
+  
