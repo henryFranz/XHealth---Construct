@@ -4,7 +4,7 @@ O Projeto é um site de uma academia, que terá seu nome de XHealth
 ## 🚀 Tecnologias
 [ JavaScript ]
 [ React ]
-[ Sass ]
+[ Css ]
 [ Styled-components ]
 
 - Parte do Diogo:
