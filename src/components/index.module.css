@@ -111,8 +111,9 @@ footer{
 }
 
 .card{
-    width: 80vw;
+    width: 80vw ;
     display: flex;
+
     align-items: center;
     gap: 30px;
 }
@@ -146,9 +147,12 @@ footer{
     text-align: start;
 }
 .container{
-    height: 75vh;
+    min-height: 75vh;
+    height: auto ;
     padding-top:50px;
+ 
 }
+
 .content{
     display: flex;
     flex-direction: column;
@@ -165,7 +169,42 @@ footer{
     font-size: var(--size-h5);
     font-family: var(--font-title);
 }
-.cardComent{}
-.textComent{}
-.imgComent{}
-.nameComent{}
+.cardComent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.textComent{
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    text-align: center;
+    border-radius: 1%;
+    border-radius: 1%;
+    padding: 2rem;
+    color: var(--primary);
+    background-color: #faf8f8;
+    line-height: 2rem;
+}
+.imgComent{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.nameComent{
+    font-family: var(--font-title);
+    color: var(--sencudary);
+    font-size: var(--size-h4);
+}
+.datePerson{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-20%);
+}
+@media(max-width:1200px) {
+    .card{
+        flex-wrap: wrap;
+    }
+}
