@@ -6,10 +6,14 @@ export default function Header() {
 
   return (
     <header>
-      <div className={styles.logo}>
+     <Link to="/" style={{
+      all:"unset",
+      cursor:"pointer"
+     }}>
+     <div className={styles.logo}>
         <span >Academia <br /> <span>XHealth</span></span>
     
-      </div>
+      </div></Link>
       <nav>
         <Link to="/"  className={`${pathname == "/" ? "active" : ""}`} >Home</Link>
         <Link to="/modalidades" className={`${pathname == "/modalidades" ? "active" : ""}`}>Modalidades</Link>

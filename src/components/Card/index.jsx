@@ -13,7 +13,7 @@ export default function Card() {
 
     <span className={style.voltar} style={{
       position: "absolute",
-      top: "14vh",
+      top: "16vh",
       left: "10vw",
       cursor: "pointer"
     }}>

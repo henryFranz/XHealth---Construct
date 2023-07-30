@@ -147,7 +147,7 @@ footer{
 }
 .container{
     height: 75vh;
-    padding: 35px;
+    padding-top:50px;
 }
 .content{
     display: flex;
@@ -165,3 +165,7 @@ footer{
     font-size: var(--size-h5);
     font-family: var(--font-title);
 }
+.cardComent{}
+.textComent{}
+.imgComent{}
+.nameComent{}
