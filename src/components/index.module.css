@@ -109,3 +109,59 @@ footer{
     grid-area: image7;
     transition: .5s;
 }
+
+.card{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.card > img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+} 
+.CardTitle{
+ font-size: var(--size-h1);
+ font-family: var(--font-title);
+ font-weight: bold;
+}
+.CardSubtitle{ 
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    font-weight: 600;
+}
+.CardText{
+    color: #f9f8fa;
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    font-weight: 200;
+}
+ li{
+    color: #f9f8fa;
+    font-family: var(--font-text);
+    font-size: var(--size-text);
+    font-weight: 200;
+    transform: translateX(2.5%);
+    text-align: start;
+}
+.container{
+    height: 75vh;
+    padding: 35px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.voltar{
+    cursor: pointer;
+
+}
+.voltar>a{
+    all: unset;
+}
+.voltar>a>span{
+    font-size: var(--size-h5);
+    font-family: var(--font-title);
+}

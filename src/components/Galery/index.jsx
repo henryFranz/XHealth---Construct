@@ -17,6 +17,5 @@ export default function Galery(){
     <Link to="/modalidades/5" className={style.image5} > <img src={image5} alt="Esteira" width="200" /></Link>
     <Link to="/modalidades/6" className={style.image6} > <img src={image6} alt="Jump" width="400" /></Link>
     <Link to="/modalidades/7" className={style.image7} > <img src={image7} alt="Corporal" width="635" /></Link>
-
 </div>
 }
