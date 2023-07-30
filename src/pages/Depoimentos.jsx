@@ -6,9 +6,9 @@ import photoPerson3 from "../assets/persons/person-3.jpg";
 import photoPerson4 from "../assets/persons/person-4.jpg";
 import photoPerson5 from "../assets/persons/person-5.jpg";
 import photoPerson6 from "../assets/persons/person-6.jpg";
-import photoPerson7 from "../assets/persons/person-7.jpg";
-import photoPerson8 from "../assets/persons/person-8.jpg";
-import photoPerson9 from "../assets/persons/person-9.jpg";
+// import photoPerson7 from "../assets/persons/person-7.jpg";
+// import photoPerson8 from "../assets/persons/person-8.jpg";
+// import photoPerson9 from "../assets/persons/person-9.jpg";
 
 export default function Depoimentos() {
   return (

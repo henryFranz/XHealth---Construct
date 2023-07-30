@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 
-:root{
-    --primary:#161519;
-    --sencudary:#d5a353;
-    --font-title:'Oswald', sans-serif;
-    --font-text:'Poppins', sans-serif;
-    --size-h1:48px;
-    --size-h2:32px;
-    --size-h3:28px;
-    --size-h4:24px;
-    --size-h5:20px;
-    --size-h6:18px;
-    --size-text:16px;
+:root {
+    --primary: #161519;
+    --sencudary: #d5a353;
+    --font-title: 'Oswald', sans-serif;
+    --font-text: 'Poppins', sans-serif;
+    --size-h1: 48px;
+    --size-h2: 32px;
+    --size-h3: 28px;
+    --size-h4: 24px;
+    --size-h5: 20px;
+    --size-h6: 18px;
+    --size-text: 16px;
 
 }
 
-header{
-    padding:0 10vw;
+header {
+    padding: 0 10vw;
     background-color: var(--primary);
-    display: flex ;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 
-.logo > span {
+.logo>span {
     font-weight: bold;
     font-size: var(--size-h2);
     font-family: var(--font-title);
@@ -32,7 +32,7 @@ header{
 }
 
 
-header>nav{
+header>nav {
     display: flex;
     gap: 1.9rem;
     font-family: var(--font-title);
@@ -45,36 +45,40 @@ header>nav>a {
     font-weight: 200;
     transition: .2s;
 }
-header>nav>a:hover{
+
+header>nav>a:hover {
     border-bottom: 1px solid white;
 }
 
-footer{
+footer {
     font-size: var(--size-text);
     font-family: var(--font-text);
     background-color: var(--primary);
-   
     display: flex;
+    background-attachment: fixed;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 10vh;
+    position: fixed;
+    bottom: 0;
 }
 
 .galery {
     padding-top: 35px;
     display: grid;
     gap: 35px;
-    
-    grid-template-areas: 
-      "image1 image2 image2"
-      "image3 image3 image4"
-      "image5 image6 image6"
-      "image7 image7 image7";
+
+    grid-template-areas:
+        "image1 image2 image2"
+        "image3 image3 image4"
+        "image5 image6 image6"
+        "image7 image7 image7";
 }
-.galery:hover>:not(:hover){
+
+.galery:hover>:not(:hover) {
     opacity: .4;
 }
+
 .image1 {
     grid-area: image1;
     transition: .5s;
@@ -110,35 +114,40 @@ footer{
     transition: .5s;
 }
 
-.card{
-    width: 80vw ;
+.card {
+    width: 80vw;
     display: flex;
 
     align-items: center;
     gap: 30px;
 }
-.card > img {
+
+.card>img {
     width: 500px;
     height: 500px;
     object-fit: cover;
-} 
-.CardTitle{
- font-size: var(--size-h1);
- font-family: var(--font-title);
- font-weight: bold;
 }
-.CardSubtitle{ 
+
+.CardTitle {
+    font-size: var(--size-h1);
+    font-family: var(--font-title);
+    font-weight: bold;
+}
+
+.CardSubtitle {
     font-family: var(--font-text);
     font-size: var(--size-text);
     font-weight: 600;
 }
-.CardText{
+
+.CardText {
     color: #f9f8fa;
     font-family: var(--font-text);
     font-size: var(--size-text);
     font-weight: 200;
 }
- li{
+
+li {
     color: #f9f8fa;
     font-family: var(--font-text);
     font-size: var(--size-text);
@@ -146,36 +155,40 @@ footer{
     transform: translateX(2.5%);
     text-align: start;
 }
-.container{
-    min-height: 75vh;
-    height: auto ;
-    padding-top:50px;
- 
+
+.container {
+    height: 75vh;
+    padding-top: 50px;
+
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     gap: .5rem;
 }
-.voltar{
-    cursor: pointer;
 
+.voltar {
+    cursor: pointer;
 }
-.voltar>a{
+
+.voltar>a {
     all: unset;
 }
-.voltar>a>span{
+
+.voltar>a>span {
     font-size: var(--size-h5);
     font-family: var(--font-title);
 }
-.cardComent{
+
+.cardComent {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
 }
-.textComent{
+
+.textComent {
     font-family: var(--font-text);
     font-size: var(--size-text);
     text-align: center;
@@ -186,25 +199,29 @@ footer{
     background-color: #faf8f8;
     line-height: 2rem;
 }
-.imgComent{
+
+.imgComent {
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
     object-fit: cover;
 }
-.nameComent{
+
+.nameComent {
     font-family: var(--font-title);
     color: var(--sencudary);
     font-size: var(--size-h4);
 }
-.datePerson{
+
+.datePerson {
     display: flex;
     flex-direction: column;
     align-items: center;
     transform: translateY(-20%);
 }
+
 @media(max-width:1200px) {
-    .card{
+    .card {
         flex-wrap: wrap;
     }
 }

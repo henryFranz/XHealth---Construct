@@ -4,9 +4,10 @@ import Home from "./pages/Home"
 import Modalidades from "./pages/Modalidades";
 import Depoimentos from "./pages/Depoimentos";
 import Professores from "./pages/Professores";
-import Duvidas from "./pages/Duvidas";
 import Modalidade from "./pages/Modalidade";
 import Galery from "./components/Galery";
+import Duvidas from "./pages/Duvidas/DuvidasPage";
+import TodoListDuvidas from './pages/Duvidas/Duvidas_Todolist'
 
 const router = createBrowserRouter([
   {
@@ -42,7 +43,14 @@ const router = createBrowserRouter([
       },
       {
         path :"/Duvidas",
-        element:<Duvidas/>
+        element:<Duvidas/>,
+        children:[
+          {
+            index:true,
+            path:"/Duvidas_Todolist",
+            element: <TodoListDuvidas/>,
+          }
+        ]
       }
     ]
   }
