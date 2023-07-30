@@ -16,7 +16,7 @@ O Henry ficará encarregado da parte frontal do site, design etc, seguindo até 
 lembrando que deverá ser feito uma parte no frontend onde o Diogo poderá conectar com a rota do todo-list, como por exemplo um botão escrito "treinar agora",
 quando a pessoa clicar ela vai ser redirecionada através da rota para o todo-list, onde o Diogo ficou encarregado de fazer.
 
-- Progresso
+## Progresso
 - ✔️ Home
 - ✔️ Modalidades
 - ✔️ Depoimentos
