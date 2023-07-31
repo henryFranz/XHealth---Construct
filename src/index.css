@@ -6,9 +6,6 @@
   color: #fff;
 }
 
-body{
-  overflow-x: hidden;
-}
 
 .active{
     font-weight: bold;

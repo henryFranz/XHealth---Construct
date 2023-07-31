@@ -18,6 +18,7 @@
 header {
     padding: 0 10vw;
     background-color: var(--primary);
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,18 +50,8 @@ header>nav>a {
 header>nav>a:hover {
     border-bottom: 1px solid white;
 }
-
-footer {
-    font-size: var(--size-text);
-    font-family: var(--font-text);
-    background-color: var(--primary);
-    display: flex;
-    background-attachment: fixed;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
+.galery>a>img{
+    height: 400px;
 }
 
 .galery {
@@ -220,8 +211,29 @@ li {
     transform: translateY(-20%);
 }
 
+
 @media(max-width:1200px) {
     .card {
         flex-wrap: wrap;
     }
+    header{
+        flex-direction: column;
+    }
+    .galery>a>img{
+        height: 300px;
+    }
+}
+@media(max-width:800px){
+
+    .galery>a>img{
+        height: 200px;
+    }
+
+}
+@media(max-width:600px){
+
+    .galery>a>img{
+        height: 150px;
+    }
+
 }

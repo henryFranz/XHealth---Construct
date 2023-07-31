@@ -7,7 +7,12 @@ export default function Layout() {
     <>
       <main
         style={{
-          width: "100vw",
+    
+          
+          display:"flex"
+        ,
+        flexDirection:"column"
+      
         }}
       >
         <Header />

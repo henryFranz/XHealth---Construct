@@ -127,8 +127,8 @@
 }
 
 .mainModalidades {
-    width: 100vw;
-    height: auto;
+    width: 100%;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,9 +147,9 @@
 }
 
 .depoimentos {
-    width: 100vw;
+    width: 100%;
 
-    height: auto;
+    
     background-color: var(--primary);
     display: flex;
     flex-direction: column;
@@ -174,4 +174,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0 2rem;
+}
+footer{
+    width: 100%;
+    font-size: var(--size-text);
+    font-family: var(--font-text);
+    background-color: var(--primary);
+    display: flex;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 }
