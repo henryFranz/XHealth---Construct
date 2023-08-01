@@ -7,8 +7,9 @@ import Professores from "./pages/Professores";
 import Modalidade from "./pages/Modalidade";
 import Galery from "./components/Galery";
 import Duvidas from "./pages/Duvidas/DuvidasPage";
-import TodoListDuvidas from './pages/Duvidas/Duvidas_Todolist'
+// import TodoListDuvidas from './pages/Duvidas/Duvidas_Todolist'
 import Planos from "./pages/Planos";
+import UserPage from './pages/Account/UserProfille'
 
 const router = createBrowserRouter([
   {
@@ -16,46 +17,45 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        index:true ,
+        index: true,
         path: "/",
-        element: <Home/>
+        element: <Home />
       },
       {
-        path:"/planos",
-        element:<Planos/>
+        path: "/planos",
+        element: <Planos />
       },
       {
-      path:"/modalidades",
-      element: <Modalidades/>,
-      children:[
-        {
-          index:true,
-          path:"/modalidades",
-          element: <Galery/>},
-        {
-          path:"/modalidades/:id",
-          element:<Modalidade/>
-        }
-      ]
-      },
-      {
-        path:"/depoimentos",
-        element: <Depoimentos/>,
-      },
-      {
-        path:"/professores",
-        element:<Professores/>
-      },
-      {
-        path :"/duvidas",
-        element:<Duvidas/>,
-        children:[
+        path: "/modalidades",
+        element: <Modalidades />,
+        children: [
           {
-            index:true,
-            path:"/duvidas/Duvidas_Todolist",
-            element: <TodoListDuvidas/>,
+            index: true,
+            path: "/modalidades",
+            element: <Galery />
+          },
+          {
+            path: "/modalidades/:id",
+            element: <Modalidade />
           }
         ]
+      },
+      {
+        path: "/depoimentos",
+        element: <Depoimentos />,
+      },
+      {
+        path: "/professores",
+        element: <Professores />
+      },
+      {
+        path :"/Duvidas",
+        element:<Duvidas/>,
+      },
+      {
+        index: true,
+        path: "/account",
+        element: <UserPage/>
       }
     ]
   }

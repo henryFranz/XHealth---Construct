@@ -22,6 +22,7 @@ export default function Header() {
         <Link to="/depoimentos" className={`${pathname == "/depoimentos" ? "active" : ""}`}>Depoimentos</Link>
         <Link to="/professores" className={`${pathname == "/professores" ? "active" : ""}`}>Professores</Link>
         <Link to="/duvidas" className={`${pathname == "/duvidas" ? "active" : ""}`}>Dúvidas</Link>
+        <Link to="/account" className={`${pathname == "/account" ? "active" : ""}`}>Perfil</Link>
       </nav>
     </header>
   );
