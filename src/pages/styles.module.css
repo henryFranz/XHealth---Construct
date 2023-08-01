@@ -20,6 +20,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -177,33 +178,93 @@
     gap: 0 2rem;
 }
 footer{
-
     width: 100%;
-    height:25vh;
-    font-size: var(--size-text);
-    font-family: var(--font-text);
+    height: auto;
+    padding: 5vh 10%;
     background-color: var(--primary);
     display: flex;
-    gap: 1rem;
-    padding: 4vh 10vw;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    gap: 2rem;
+    font-family: var(--font-text);
+    font-weight: 200;
 }
-footer>div{
+footer>div:nth-child(1){
     display: flex;
-    align-items: start;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+footer>div:nth-child(1)>span:nth-child(2){
+    display: flex;
+    gap: 1rem;
+}
+footer>div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     gap: 1rem;
     
 }
-footer>div>div{
+footer>div:nth-child(2)>div>span:nth-child(1){
+    font-weight: 500;
+    font-size: var(--size-text);
+    border-bottom: 1px solid #fff;
+}
+footer>div:nth-child(2)>div{
     display: flex;
     flex-direction: column;
-}
-@media(max-width:1200px){
-    footer{
 
-       flex-direction: column;
+    line-height: 2rem;
+}
+footer>div:nth-child(3){
+    text-align: center;
+}
+@media(max-width:1000px){
+    footer>div:nth-child(2){
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
         
     }
+    .homeTitle{
+        font-size: 100px;
+    }
+
+    .homeText{
+        width: 150%;
+    }
+.days {
+    width: 100%;
+    padding: 0 10vw;
+    padding-bottom: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+
+
+
+
+
+.dayTitle,
+.dayHour {
+    font-size: var(--size-text);
+    text-align: center;
+    
+}
+
+.dayList {
+    font-family: var(--font-title);
+    text-align: center;
+}
+}
+
+@media(max-width:500px){
+    .days {
+        grid-template-columns: 1fr 1fr ;
+    }
+    
+    footer>div:nth-child(1){
+        flex-direction: column;
+    }
+
 }

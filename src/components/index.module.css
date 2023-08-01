@@ -107,6 +107,7 @@ header>nav>a:hover {
 
 .card {
     width: 80vw;
+    height: auto;
     display: flex;
 
     align-items: center;
@@ -148,7 +149,6 @@ li {
 }
 
 .container {
-    height: 75vh;
     padding-top: 50px;
 
 }
@@ -157,19 +157,6 @@ li {
     display: flex;
     flex-direction: column;
     gap: .5rem;
-}
-
-.voltar {
-    cursor: pointer;
-}
-
-.voltar>a {
-    all: unset;
-}
-
-.voltar>a>span {
-    font-size: var(--size-h5);
-    font-family: var(--font-title);
 }
 
 .cardComent {
@@ -235,5 +222,16 @@ li {
     .galery>a>img{
         height: 150px;
     }
-
+    
+    .card>img{
+        width: 300px;
+        height: 400px;
+        object-fit: cover;
+        margin: auto;
+    }
+    .CardTitle {
+        font-size: var(--size-h3);
+        font-family: var(--font-title);
+        font-weight: bold;
+    }
 }

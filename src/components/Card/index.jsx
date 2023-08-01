@@ -11,16 +11,6 @@ export default function Card() {
   return (<>
   
 
-    <span className={style.voltar} style={{
-      position: "absolute",
-      top: "16vh",
-      left: "10vw",
-      cursor: "pointer"
-    }}>
-    <Link to="/modalidades" >
-      <img src={arrow} alt="volar" width="40" /> <span>VOLTAR</span>
-      </Link>
-    </span>
   
     <div className={style.container}>
       <div className={style.card}>

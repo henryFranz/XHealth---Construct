@@ -1,30 +1,64 @@
+import {
+  AiOutlineWhatsApp,
+  AiOutlineFacebook,
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+} from "react-icons/ai";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillHouseFill } from "react-icons/bs";
+import { FiTwitter } from "react-icons/fi";
+
 export default function Footer() {
   return (
     <footer>
-<div>
-<div>
-        <span> COMPANY NAME </span>
+      <div>
+        <span>Get connected with us on social networks:</span>
         <span>
-          Here you can use rows and columns to organize your footer content.
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          <a href="http://" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <AiOutlineFacebook /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <FiTwitter /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <AiOutlineInstagram /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <AiOutlineLinkedin /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <AiOutlineGithub /></a>
         </span>
       </div>
       <div>
-        <span>PRODUCTS</span>
-        <span>Angular React Vue Laravel</span>
+        <div>
+          <span> XHEALTH </span>
+          <span>
+            Não tente <strong> ser perfeito</strong> apenas tente ser melhor do
+            que você foi ontem
+          </span>
+        </div>
+        <div>
+          <span>PRODUCTS</span>
+          <span>MUSCULAÇÃO</span>
+          <span> MUAY THAI </span>
+          <span>HIIT </span>
+          <span>ZUMBA</span>
+        </div>
+        <div>
+          <span>USEFUL LINKS</span> <span>Pricing Settings Orders Help</span>
+        </div>
+        <div>
+          <span>CONTACT</span>
+          <span>
+            <BsFillHouseFill /> New York, NY 10012, US
+          </span>
+          <span>
+            <HiOutlineMail /> XHealth@gmail.com
+          </span>
+          <span>
+            {" "}
+            <AiOutlineWhatsApp /> +55 11 96760-03378
+          </span>
+          <span>
+            {" "}
+            <AiOutlineWhatsApp /> +55 27 98800-4330
+          </span>
+        </div>
       </div>
-      <div>
-        <span>USEFUL LINKS</span> <span>Pricing Settings Orders Help</span>
-      </div>
-      <div>
-        <span>CONTACT</span> <span>New York, NY 10012, US</span>
-        <span>info@example.com </span>
-        <span>+ 01 234 567 88</span> <span>+ 01 234 567 89</span>
-      </div>
-</div>  
-<div>
-© 2021 Copyright: MDBootstrap.com
-    </div>   
+      <div>Feito com amor por Henry e Diogoo &copy; 20023</div>
     </footer>
   );
 }
