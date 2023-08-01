@@ -1,5 +1,5 @@
-import { Link, useLocation } from "react-router-dom";
-import arrow from "../../assets/Arrow.png";
+import {  useLocation } from "react-router-dom";
+
 import style from "../index.module.css"
 import cards from "../../js/textCard";
 
@@ -11,9 +11,8 @@ export default function Card() {
   return (<>
   
 
-  
-    <div className={style.container}>
-      <div className={style.card}>
+    <div className={style.container} >
+      <div className={style.card} >
         <img src={`/src/assets/image${i + 1}.png`} alt={card.title} />
         <span className={style.content}>
         <span className={style.CardTitle}>{card.title}</span>
