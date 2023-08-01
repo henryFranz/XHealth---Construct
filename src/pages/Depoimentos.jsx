@@ -6,9 +6,7 @@ import photoPerson3 from "../assets/persons/person-3.jpg";
 import photoPerson4 from "../assets/persons/person-4.jpg";
 import photoPerson5 from "../assets/persons/person-5.jpg";
 import photoPerson6 from "../assets/persons/person-6.jpg";
-// import photoPerson7 from "../assets/persons/person-7.jpg";
-// import photoPerson8 from "../assets/persons/person-8.jpg";
-// import photoPerson9 from "../assets/persons/person-9.jpg";
+
 
 export default function Depoimentos() {
   return (
@@ -26,7 +24,6 @@ export default function Depoimentos() {
           name="Sofia Oliveira"
     
         />
-        
          <Coment
           src={photoPerson3}
           text="Falar do Espaço XHealth é falar sobre excelência e profissionalismo, além de ter sido muito bem recebida, as aulas sempre são agradáveis, atrativas e com metodologia impecável!          Os instrutores estão sempre buscando aperfeiçoamento, trazendo pra gente aulas mais dinâmicas e interessantes, além de buscarem melhorar também a estrutura física, visando nosso conforto e bem estar. Tenho total confiança no profissionais, pois colocam nossa saúde e bem estar sempre em primeiro lugar."

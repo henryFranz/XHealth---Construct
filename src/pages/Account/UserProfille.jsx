@@ -14,7 +14,7 @@ function UserProfille() {
               <img src={UserImg} alt="icone de pessoa" />
             </UserLeft>
             <UserRight>
-
+       
             </UserRight>
           </UserInternal>
         </UserContentTwo>

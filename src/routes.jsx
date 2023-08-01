@@ -7,9 +7,8 @@ import Professores from "./pages/Professores";
 import Modalidade from "./pages/Modalidade";
 import Galery from "./components/Galery";
 import Duvidas from "./pages/Duvidas/DuvidasPage";
-// import TodoListDuvidas from './pages/Duvidas/Duvidas_Todolist'
-import Planos from "./pages/Planos";
 import UserPage from './pages/Account/UserProfille'
+// import Planos from "./pages/Planos";
 
 const router = createBrowserRouter([
   {
@@ -21,10 +20,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />
       },
-      {
-        path: "/planos",
-        element: <Planos />
-      },
+      // {
+      //   path:"/planos",
+      //   element:<Planos/>
+      // },
       {
         path: "/modalidades",
         element: <Modalidades />,

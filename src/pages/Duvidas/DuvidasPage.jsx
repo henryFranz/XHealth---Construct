@@ -15,9 +15,7 @@ function Duvidas() {
                 <Wrapper>
                     <Card>
                         <Poster>
-                            <Link to="/Duvidas_Todolist">
-                                <img src={Danca} alt="imagem do modulo de dança" />
-                            </Link>
+                            <img src={Danca} alt="imagem do modulo de dança" />
                         </Poster>
                         <Details>
                             <h1>Dança</h1>
