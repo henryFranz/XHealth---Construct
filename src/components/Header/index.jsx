@@ -18,7 +18,6 @@ export default function Header() {
       <nav>
         <Link to="/" className={`${pathname == "/" ? "active" : ""}`} >Home</Link>
         <Link to="/modalidades" className={`${pathname == "/modalidades" ? "active" : ""}`}>Modalidades</Link>
-        <Link to="/planos" className={`${pathname == "/planos" ? "active" : ""}`}>Planos</Link>
         <Link to="/depoimentos" className={`${pathname == "/depoimentos" ? "active" : ""}`}>Depoimentos</Link>
         <Link to="/professores" className={`${pathname == "/professores" ? "active" : ""}`}>Professores</Link>
         <Link to="/duvidas" className={`${pathname == "/duvidas" ? "active" : ""}`}>Dúvidas</Link>
