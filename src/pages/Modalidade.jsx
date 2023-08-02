@@ -1,5 +1,5 @@
 
-import Card from "../components/Card"
+import Card from "../components/CardModalidades"
 
 export default function Modalidade() {
     return <main>

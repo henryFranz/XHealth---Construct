@@ -1,4 +1,6 @@
+import CardDay from "../components/CardDay";
 import style from "./styles.module.css";
+
 
 export default function home() {
   return (
@@ -14,43 +16,12 @@ export default function home() {
         </span>
       </div>
       <div className={style.days}>
-        <span className={style.day}>
-            <span className={style.dayTitle}>SEGUNDA-FEIRA</span>
-            <span className={style.dayHour}>6:00-22:00</span>
-            <span className={style.dayList}>MUAY THAI</span>
-            <span className={style.dayList}>HIIT</span>
-        </span>
-        <span className={style.day}>
-            <span className={style.dayTitle}>TERÇA-FEIRA</span>
-            <span className={style.dayHour}>6:00-22:00</span>
-            <span className={style.dayList}>ZUMBA</span>
-            <span className={style.dayList}>FUNCIONAL</span>
-        </span>
-        <span className={style.day}>
-            <span className={style.dayTitle}>QUARTA-FEIRA</span>
-            <span className={style.dayHour}>6:00-22:00</span>
-            <span className={style.dayList}>MUAY THAI</span>
-            <span className={style.dayList}>BIKE IDOOR</span>
-        </span>
-        <span className={style.day}>
-            <span className={style.dayTitle}>QUARTA-FEIRA</span>
-            <span className={style.dayHour}>6:00-22:00</span>
-            <span className={style.dayList}>ZUMBA</span>
-            <span className={style.dayList}>FUNCIONAL</span>
-        </span>
-        <span className={style.day}>
-            <span className={style.dayTitle}>SEXTA-FEIRA</span>
-            <span className={style.dayHour}>6:00-12:00</span>
-            <span className={style.dayList}>MUAY THAI</span>
-            <span className={style.dayList}>HIIT</span>
-        </span>
-        <span className={style.day}>
-            <span className={style.dayTitle}>SABADO</span>
-            <span className={style.dayHour}>6:00-12:00</span>
-            <span className={style.dayList}>BIKE IDOOR</span>
-            <span className={style.dayList}>JUMP</span>
-        </span>
-      
+        <CardDay date="SEGUNDA-FEIRA" treinos={["MUAY THAI", "BIKE IDOOR"]}  horario="6:00-22:00" durationAnimation="1000"/>
+        <CardDay date="TERÇA-FEIRA" treinos={["ZUMBA", "FUNCIONAL"]}  horario="6:00-22:00" durationAnimation="1100"/>
+        <CardDay date="QUARTA-FEIRA" treinos={["MUAY THAI", "BIKE IDOOR"]}  horario="6:00-22:00" durationAnimation="1200"/>
+        <CardDay date="QUINTA-FEIRA" treinos={["ZUMBA", "FUNCIONAL"]}  horario="6:00-22:00" durationAnimation="1300"/>
+        <CardDay date="SEXTA-FEIRA" treinos={["MUAY THAI", "HIIT"]}  horario="6:00-22:00" durationAnimation="1400"/>
+        <CardDay date="SABADO" treinos={["BIKE IDOOR", "JUMP"]}  horario="6:00-12:00" durationAnimation="1500"/>
       </div>
     </main>
   );

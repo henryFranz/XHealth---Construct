@@ -12,3 +12,10 @@
     border-bottom: 1px solid #eee;
     border: #85838370;
   }
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+body{
+  overflow-x: hidden;
+}
