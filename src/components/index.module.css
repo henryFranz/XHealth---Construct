@@ -15,13 +15,12 @@
 }
 
 header {
-    padding: 0 10vw;
+    padding: 1.5vh 10vw;
     background-color: var(--primary);
-    height: 11vh;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 1%;
 }
 
 .logo>span {
