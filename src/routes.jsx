@@ -7,8 +7,6 @@ import Professores from "./pages/Professores";
 import Modalidade from "./pages/Modalidade";
 import Galery from "./components/Galery";
 import Duvidas from "./pages/Duvidas/DuvidasPage";
-import UserPage from './pages/Account/UserProfille'
-// import Planos from "./pages/Planos";
 
 const router = createBrowserRouter([
   {
@@ -20,10 +18,6 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />
       },
-      // {
-      //   path:"/planos",
-      //   element:<Planos/>
-      // },
       {
         path: "/modalidades",
         element: <Modalidades />,
@@ -51,11 +45,6 @@ const router = createBrowserRouter([
         path :"/Duvidas",
         element:<Duvidas/>,
       },
-      {
-        index: true,
-        path: "/account",
-        element: <UserPage/>
-      }
     ]
   }
 ]);

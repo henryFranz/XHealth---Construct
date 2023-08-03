@@ -64,12 +64,6 @@ export default function NavBarMobile(){
         >
           Dúvidas
         </Link>
-        <Link
-          to="/account"
-          className={`${pathname === "/account" ?"active"  : ""}`}
-        >
-          Perfil
-        </Link>
   </div>
   : null}
     </>

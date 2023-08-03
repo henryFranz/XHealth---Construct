@@ -40,12 +40,7 @@ export default function NavBarDesktop(){
         >
           Dúvidas
         </Link>
-        <Link
-          to="/account"
-          className={`${pathname === "/account" ? "active" : ""}`}
-        >
-          Perfil
-        </Link>
+      
       </nav>
     </>
 }
