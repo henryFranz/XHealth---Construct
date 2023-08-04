@@ -1,5 +1,6 @@
 @media(max-width:550px){
     header{
+       
         display: flex;
         align-items: self-start;
         gap: 1rem;
@@ -19,8 +20,8 @@
 }
 
 .menu{
-    width: 50px;
-    height: 40px;
+    width: 40px;
+    height: 30px;
     border: 1px solid white;
     border-radius: 5px;
     display: flex;
@@ -28,18 +29,17 @@
     justify-content: space-evenly;
     align-items: center;
     transition: 0.4s;
+    cursor: pointer;
 }
 .menu>span{
-    width: 70%;
+    width: 60%;
     height: 1px;
     background-color: white;
 }
-.menu:active{
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
-}
+
 
 .menu>div{
-    width: 7%;
+    width: 5%;
     height: 1px;
     background-color: white;
     

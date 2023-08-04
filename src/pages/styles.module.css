@@ -300,7 +300,29 @@ footer > div:nth-child(3) {
     text-align: center;
   }
 }
+@media(max-width:700px){  
 
+  .title {
+    font-size: var(--size-h2);  
+  }
+
+  
+  .homeSubTitle {
+    font-family: var(--font-title);
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    width: 90vw;
+  }
+  
+
+  
+  .homeText {
+    width: 90vw;
+  }
+  
+
+}
 @media (max-width: 500px) {
   .days {
     grid-template-columns: 1fr 1fr;

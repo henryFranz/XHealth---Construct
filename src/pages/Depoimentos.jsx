@@ -13,7 +13,7 @@ import photoPerson9 from "../assets/persons/person-9.jpg";
 export default function Depoimentos() {
   return (
     <main className={style.depoimentos}>
-      <span>DEPOIMENTOS</span>
+      <span className={style.title}>DEPOIMENTOS</span>
       <section className={style.coments}>
         <Coment
           key="1"
