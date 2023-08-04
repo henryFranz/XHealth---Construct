@@ -21,7 +21,7 @@ quando a pessoa clicar ela vai ser redirecionada através da rota para o todo-li
 - ✔️ Modalidades
 - ✔️ Depoimentos
 - ✔️ Professores
-- ❌ Duvidas (Falta fazer a parte da logica e está com bug ao clickar no mesmo, bug referente as rotas)
-- ❌ Converter o projeto para Figma
-- ❌ Enviar o projeto via Email com o email dos 2 participantes para verificação da Onebitcode
+- ✔️ Duvidas (Falta fazer a parte da logica e está com bug ao clickar no mesmo, bug referente as rotas)
+- ✔️ Converter o projeto para Figma
+- ✔️ Enviar o projeto via Email com o email dos 2 participantes para verificação da Onebitcode
   
