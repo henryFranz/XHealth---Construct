@@ -1,10 +1,10 @@
-import image1 from "../../assets/modalidades/1/image1.png";
-import image2 from "../../assets/modalidades/2/image2.png";
-import image3 from "../../assets/modalidades/3/image3.png";
-import image4 from "../../assets/modalidades/4/image4.png";
-import image5 from "../../assets/modalidades/5/image5.png";
-import image6 from "../../assets/modalidades/6/image6.png";
-import image7 from "../../assets/modalidades/7/image7.png";
+import image1 from "../assets/modalidades/1/image1.png";
+import image2 from "../assets/modalidades/2/image2.png";
+import image3 from "../assets/modalidades/3/image3.png";
+import image4 from "../assets/modalidades/4/image4.png";
+import image5 from "../assets/modalidades/5/image5.png";
+import image6 from "../assets/modalidades/6/image6.png";
+import image7 from "../assets/modalidades/7/image7.png";
 
 import { Link } from "react-router-dom";
 import style from "../index.module.css";
